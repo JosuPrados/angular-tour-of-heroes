@@ -6,12 +6,10 @@ import { Hero } from '../hero';
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.css']
 })
-export class HeroDetailComponent implements OnInit {
+export class HeroDetailComponent {
   @Input() hero?: Hero;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }
